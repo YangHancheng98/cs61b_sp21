@@ -42,6 +42,7 @@ public class Tile {
     }
 
     /** Return the result of moving me to (COL, ROW). */
+
     public Tile move(int col, int row) {
         Tile result = new Tile(value, col, row);
         next = result;
